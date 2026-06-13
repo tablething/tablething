@@ -9,7 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://tablething.com">tablething.com</a>
+  <img src="https://img.shields.io/badge/price-free-2ea44f" alt="Free" />
+  <a href="https://tablething.com"><img src="https://img.shields.io/badge/visit-website-1f6feb" alt="Visit website" /></a>
+  <img src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white" alt="macOS" />
 </p>
 
 ---
@@ -18,11 +20,19 @@ Tablething is a desktop database client. You point it at a database, browse and 
 
 ## What you can do
 
-- Connect to a range of databases and data sources (see below).
-- Browse tables and documents in the explorer, with filtering and inline editing.
-- Write queries in a proper editor with syntax highlighting and autocomplete, and save the ones you reuse.
-- Chart query results without exporting them somewhere else first.
-- Chat with your data. Ask a question against a connection and let the model draft the query, then run it and see the rows. You bring your own API key, and you can pick the provider and model you want to use.
+- Connect over the network or through an SSH tunnel, using a connection string or individual fields.
+- Browse schemas, tables and collections in the explorer.
+- Page through rows and documents, with column filters.
+- Edit cells inline and insert new rows from a dialog.
+- View and expand JSON / nested values.
+- Write queries in a CodeMirror editor with syntax highlighting and autocomplete.
+- Save queries and reopen them later.
+- See query timing and inspect the query plan (EXPLAIN).
+- Ask the AI to explain a query, or to fix one that errored.
+- Build charts from results: bar, line, area, pie, radial and single-number.
+- Chat against a connection: the model drafts a query, runs it, and shows the rows.
+- Pick the AI provider and model, and use your own API key.
+- Sync Stripe data and browse it like any other connection.
 
 ## Connections
 
@@ -45,12 +55,16 @@ On the way:
 
 ## Install
 
-Grab the latest build from the [releases page](https://github.com/tablething/tablething/releases/latest). macOS builds are universal, so the same download runs on both Apple Silicon and Intel. The app updates itself once installed.
+Grab the latest build from the [releases page](https://github.com/tablething/tablething/releases/latest). The app updates itself once installed.
 
-## How it's built
-
-The app is built with [Tauri](https://tauri.app), so the core runs as a small native binary in Rust and the interface is a web frontend rather than a bundled browser. The frontend uses React Router and CodeMirror for the query editor, and the AI features run through the [Vercel AI SDK](https://sdk.vercel.ai), which is what lets you swap between providers.
+- [x] macOS (universal — Apple Silicon and Intel)
+- [ ] Windows
+- [ ] Linux
 
 ## Issues
 
-Found a bug or want to request something? Open an issue using one of the [templates](https://github.com/tablething/tablething/issues/new/choose). This repository is also where releases are published.
+- [Report a bug](https://github.com/tablething/tablething/issues/new?template=bug_report.yml)
+- [Request a feature](https://github.com/tablething/tablething/issues/new?template=feature_request.yml)
+- [All templates](https://github.com/tablething/tablething/issues/new/choose)
+
+This repository is also where releases are published.
