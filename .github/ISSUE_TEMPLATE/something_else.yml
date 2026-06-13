@@ -1,0 +1,11 @@
+name: Something else
+description: A question, feedback, or anything that isn't a bug or feature request
+labels: ["question"]
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: What's on your mind?
+      description: Share your question, feedback, or anything else.
+    validations:
+      required: true
