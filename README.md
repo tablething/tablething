@@ -14,22 +14,21 @@
   <img src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white" alt="macOS" />
 </p>
 
-Tablething is a desktop database client. You point it at a database, browse and edit your data, write and save queries, turn results into charts, and ask questions in plain language when you'd rather not write the SQL yourself.
+Tablething is a fast desktop database client with AI built in. Connect to your databases, explore and edit your data, write and save queries, and ask AI for help when you'd rather not write the SQL yourself.
 
 ## What you can do
 
-- Connect to supported data sources
-- Use the explorer to explore the connected data sources
-- Page through rows and documents
-- Apply filters manually or generate them using AI
-- Edit cells inline and insert new rows
-- View and expand JSON and nested values
-- Write queries in an editor with syntax highlighting and autocomplete
+- Create multiple connections to the supported databases
+- Chat with your database using AI
+- Use AI to create and fix queries
+- Apply filters manually or generate them with AI
+- Explore and page through your data sources in the explorer
+- Write queries with syntax highlighting and autocomplete
 - Save queries and reopen them later
-- Check query timing and inspect the query plan
-- Ask AI to explain or fix a query
-- Build charts from results (bar, line, area, pie, radial, number)
-- Chat against a connection and let AI draft and run queries
+- Inspect the query plan and check timing
+- Edit cells inline and insert new rows
+- Create charts from the query results (bar, line, area, pie, radial, number)
+- View and expand JSON and nested values
 - Pick the AI provider and model, and use your own API key
 - Sync Stripe data and browse it like any other connection
 
@@ -54,7 +53,7 @@ On the way:
 
 ## Install
 
-Grab the latest build from the [releases page](https://github.com/tablething/tablething/releases/latest). The app updates itself once installed.
+Download the latest build from the [releases page](https://github.com/tablething/tablething/releases/latest). The app updates itself automatically once installed.
 
 - [x] macOS
 - [ ] Windows
