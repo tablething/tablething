@@ -5,7 +5,7 @@
 <h1 align="center">Tablething</h1>
 
 <p align="center">
-  A fast database client for Postgres, MySQL, MongoDB and ClickHouse, with AI built in.
+  Database client to query any datasource with AI built in.
 </p>
 
 <p align="center">
@@ -14,36 +14,31 @@
   <img src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white" alt="macOS" />
 </p>
 
-Tablething is a fast desktop database client with AI built in. Connect to your databases, explore and edit your data, write and save queries, and ask AI for help when you'd rather not write the SQL yourself.
+## What is it?
 
-## What you can do
+Tablething is a fast, free and powerful database client to help you query any datasource.
 
-- Create multiple connections to the supported databases
-- Chat with your database using AI
-- Use AI to create and fix queries
-- Apply filters manually or generate them with AI
-- Explore and page through your data sources in the explorer
-- Write queries with syntax highlighting and autocomplete
-- Save queries and reopen them later
-- Inspect the query plan and check timing
-- Edit cells inline and insert new rows
-- Create charts from the query results (bar, line, area, pie, radial, number)
-- View and expand JSON and nested values
-- Pick the AI provider and model, and use your own API key
-- Sync Stripe data and browse it like any other connection
+- Create multiple database connections
+- Query them manually or use AI to generate queries
+- AI Chat interface to ask questions in plain english
+- Supports OpenAI, Anthropic, Google Gemini, Groq, OpenAI compatible APIs and Ollama
+- Bring your own API key
+- Works offline and everything stays on your local
+- Explorer page to look at the data and update it inline
+- Powerful query editor with syntax highlighting
+- Visualize data with charts
+- Save queries for future use
 
-## Connections
+## Supported Datasources
 
-Available now:
+Following datasources are supported at the moment:
 
 - [x] Postgres
 - [x] MySQL
 - [x] MongoDB
 - [x] ClickHouse
+- [x] Elasticsearch
 - [x] Stripe
-
-On the way:
-
 - [ ] SQLite
 - [ ] SQL Server
 - [ ] Snowflake
