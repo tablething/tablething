@@ -35,6 +35,7 @@ Following datasources are supported at the moment:
 
 - [x] Postgres
 - [x] MySQL
+- [x] Redshift
 - [x] MongoDB
 - [x] ClickHouse
 - [x] Elasticsearch
