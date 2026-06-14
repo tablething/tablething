@@ -35,17 +35,18 @@ Following datasources are supported at the moment:
 
 - [x] Postgres
 - [x] MySQL
-- [x] Redshift
 - [x] MongoDB
-- [x] ClickHouse
-- [x] Elasticsearch
-- [x] Stripe
-- [ ] SQLite
-- [ ] SQL Server
-- [ ] Snowflake
-- [ ] BigQuery
-- [ ] Cloudflare D1
 - [ ] Redis
+- [ ] SQL Server
+- [x] SQLite
+- [x] Elasticsearch
+- [ ] Snowflake
+- [x] MariaDB
+- [x] Stripe
+- [ ] BigQuery
+- [x] ClickHouse
+- [x] Redshift
+- [ ] Cloudflare D1
 
 ## Install
 
