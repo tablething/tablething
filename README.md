@@ -12,8 +12,8 @@
   <img src="https://img.shields.io/badge/price-free-2ea44f" alt="Free" />
   <a href="https://tablething.com"><img src="https://img.shields.io/badge/visit-website-1f6feb" alt="Visit website" /></a>
   <img src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white" alt="macOS" />
-  <img src="https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white" alt="Windows" />
-  <img src="https://img.shields.io/badge/Linux-1793D1?logo=linux&logoColor=white" alt="Linux" />
+  <img src="https://img.shields.io/badge/Windows-0078D6?logo=data:image/svg%2bxml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgdmlld0JveD0iMCAwIDQ0OCA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2bPHBhdGggZD0iTTAgOTMuN0wxODMuOCA2OC40djE3Ny4ySDBWOTMuN3ptMjA2LjQtMjguNkw0NDggMHYyNDUuNkgyMDYuNFY2NS4xek0wIDI2Ni40aDE4My44djE3Ny4yTDAgNDE4LjNWMjY2LjR6bTIwNi40IDBINDQ4djI0NS42bC0yNDEuNi0zNC4yVjI2Ni40eiIvPjwvc3ZnPg%3d%3d" alt="Windows" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" alt="Linux" />
 </p>
 
 ## What is it?
