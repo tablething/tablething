@@ -45,6 +45,7 @@ Following datasources are supported at the moment:
 - [x] Stripe
 - [x] ClickHouse
 - [x] Redshift
+- [x] DuckDB
 - [ ] Redis
 - [ ] Snowflake
 - [ ] BigQuery
