@@ -12,6 +12,8 @@
   <img src="https://img.shields.io/badge/price-free-2ea44f" alt="Free" />
   <a href="https://tablething.com"><img src="https://img.shields.io/badge/visit-website-1f6feb" alt="Visit website" /></a>
   <img src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white" alt="macOS" />
+  <img src="https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white" alt="Windows" />
+  <img src="https://img.shields.io/badge/Linux-1793D1?logo=linux&logoColor=white" alt="Linux" />
 </p>
 
 ## What is it?
@@ -35,6 +37,7 @@ Following datasources are supported at the moment:
 
 - [x] Postgres
 - [x] MySQL
+- [x] SQL Server
 - [x] MongoDB
 - [x] SQLite
 - [x] Elasticsearch
@@ -43,7 +46,6 @@ Following datasources are supported at the moment:
 - [x] ClickHouse
 - [x] Redshift
 - [ ] Redis
-- [ ] SQL Server
 - [ ] Snowflake
 - [ ] BigQuery
 - [ ] Cloudflare D1
