@@ -53,8 +53,8 @@ Following datasources are supported at the moment:
 Download the latest build from the [releases page](https://github.com/tablething/tablething/releases/latest). The app updates itself automatically once installed.
 
 - [x] macOS
-- [ ] Windows
-- [ ] Linux
+- [x] Windows
+- [x] Linux
 
 ## Issues
 
