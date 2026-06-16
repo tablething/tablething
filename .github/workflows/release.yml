@@ -149,7 +149,7 @@ jobs:
   build-windows:
     permissions:
       contents: write
-    runs-on: windows-latest
+    runs-on: windows-2022
     timeout-minutes: 90
     # Run after the macOS job so the release and updater latest.json already
     # exist; this job merges its Windows signatures in instead of racing to
