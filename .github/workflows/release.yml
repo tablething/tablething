@@ -5,6 +5,14 @@ on:
     tags: ['v*']
   workflow_dispatch:
 
+# A tag must never build twice at once. tauri-action clobbers release assets, so
+# two overlapping runs for the same tag can leave the uploaded tarball from one
+# run and the latest.json signature from the other, which makes auto-update fail
+# the minisign check on every client. Cancel any in-progress run for the same tag.
+concurrency:
+  group: release-${{ github.ref_name }}
+  cancel-in-progress: true
+
 jobs:
   build-macos:
     permissions:
