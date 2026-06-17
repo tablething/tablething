@@ -38,8 +38,8 @@ Following datasources are supported at the moment:
 - [x] Postgres
 - [x] MySQL
 - [x] SQLite
-- [x] SQL Server
 - [x] MongoDB
+- [x] SQL Server
 - [x] MariaDB
 - [x] Elasticsearch
 - [x] DynamoDB
@@ -47,6 +47,7 @@ Following datasources are supported at the moment:
 - [x] Redshift
 - [x] ClickHouse
 - [x] DuckDB
+- [x] Turso
 - [x] Stripe
 - [ ] Redis
 - [ ] Snowflake
