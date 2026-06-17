@@ -46,9 +46,9 @@ Following datasources are supported at the moment:
 - [x] ClickHouse
 - [x] Redshift
 - [x] DuckDB
+- [x] BigQuery
 - [ ] Redis
 - [ ] Snowflake
-- [ ] BigQuery
 - [ ] Cloudflare D1
 
 ## Install
