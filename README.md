@@ -50,8 +50,8 @@ Following datasources are supported at the moment:
 - [x] DuckDB
 - [x] Turso
 - [x] Stripe
+- [x] Cloudflare D1
 - [ ] Snowflake
-- [ ] Cloudflare D1
 
 ## Install
 
