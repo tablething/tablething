@@ -61,7 +61,6 @@ body:
     id: logs
     attributes:
       label: Logs or screenshots
-      description: Paste any relevant logs, error messages, or screenshots. Logs will be automatically formatted, no need for backticks.
-      render: shell
+      description: Paste any relevant logs, error messages, or screenshots. Wrap logs in triple backticks (```) to format them.
     validations:
       required: false
