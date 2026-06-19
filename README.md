@@ -51,7 +51,8 @@ Following datasources are supported at the moment:
 - [x] Turso
 - [x] Stripe
 - [x] Cloudflare D1
-- [ ] Snowflake
+- [x] CockroachDB
+- [x] Snowflake
 
 ## Install
 
