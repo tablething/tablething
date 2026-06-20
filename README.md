@@ -53,6 +53,7 @@ Following datasources are supported at the moment:
 - [x] Cloudflare D1
 - [x] CockroachDB
 - [x] Snowflake
+- [x] Cassandra
 
 ## Install
 
