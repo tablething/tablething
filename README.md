@@ -48,6 +48,7 @@ Following datasources are supported at the moment:
 - [x] Redshift
 - [x] ClickHouse
 - [x] DuckDB
+- [x] MotherDuck
 - [x] Turso
 - [x] Stripe
 - [x] Cloudflare D1
@@ -59,6 +60,8 @@ Following datasources are supported at the moment:
 - [x] Parquet files
 - [x] JSON files
 - [x] Excel files
+
+Anything that speaks the Postgres, MySQL, or Elasticsearch wire protocol connects through the matching connection form too, for example Supabase, Neon, TimescaleDB, PlanetScale, and SingleStore.
 
 ## Install
 
