@@ -54,6 +54,11 @@ Following datasources are supported at the moment:
 - [x] CockroachDB
 - [x] Snowflake
 - [x] Cassandra
+- [x] Oracle
+- [x] CSV files
+- [x] Parquet files
+- [x] JSON files
+- [x] Excel files
 
 ## Install
 
