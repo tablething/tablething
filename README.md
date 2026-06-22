@@ -56,6 +56,7 @@ Following datasources are supported at the moment:
 - [x] Snowflake
 - [x] Cassandra
 - [x] Oracle
+- [x] Databricks
 - [x] CSV files
 - [x] Parquet files
 - [x] JSON files
