@@ -50,7 +50,6 @@ Following datasources are supported at the moment:
 - [x] DuckDB
 - [x] MotherDuck
 - [x] Turso
-- [x] Stripe
 - [x] Cloudflare D1
 - [x] CockroachDB
 - [x] Snowflake
